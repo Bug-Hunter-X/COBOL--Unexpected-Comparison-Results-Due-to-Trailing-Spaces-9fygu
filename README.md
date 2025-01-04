@@ -1,0 +1,1 @@
+This example demonstrates a common error in COBOL string comparisons.  The problem arises when comparing alphanumeric fields that might contain trailing spaces.  Standard comparisons won't ignore these spaces, leading to incorrect results.  The solution shows how to handle this using the INSPECT statement or by explicitly trimming trailing spaces.
